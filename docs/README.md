@@ -3,7 +3,7 @@ sidebar: auto
 title: Markdown examples
 ---
 # Markdown examples
-Edit on 30.04.2018 with NetlifyCMS
+Voorbeeldpagina met hoe dingen in Markdown kunnen worden opgemaakt.
 
 # h1 HmHm 8-)
 
