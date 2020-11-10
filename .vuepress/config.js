@@ -1,17 +1,17 @@
 module.exports = {
-    title: "VuePress Deploy",
+    title: "SP Documentatie (Dev)",
     locales: {
         '/': {
-            lang: 'de-DE',
-            title: 'VuePress Deploy',
-            description: 'Vuepress with Netlify Deploy Button'
+            lang: 'nl-NL',
+            title: '',
+            description: 'SP Documentatie (under development)'
         }
     },
     head: [
         ['link', { rel: 'icon', href: `/logo.png` }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
-        ['link', { rel: 'canonical', href: 'https://vuepress-deploy.netlify.com' }],
-        ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+        ['link', { rel: 'canonical', href: 'https://docs-dev.socialistischepartij.nl' }],
+        ['meta', { name: 'theme-color', content: '#ec1b23' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
         ['link', { rel: 'apple-touch-icon', href: `/icons/apple-touch-icon-152x152.png` }],
@@ -25,17 +25,9 @@ module.exports = {
         repo: 'capriosa/vuepress-deploy',
 
         nav: [{
-                text: 'Start',
+                text: 'Overzicht',
                 link: '/docs/',
             },
-            {
-                text: 'Admin',
-                link: '/admin',
-            },
-            {
-                text: 'NetlifyCMS Config Help',
-                link: '/docs/netlifycms-configuration.html',
-            }
 
         ]
 
